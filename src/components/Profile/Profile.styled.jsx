@@ -63,7 +63,7 @@ export const Stats = styled.ul`
   border-radius: 0 0 10px 10px;
   border-top: 3px solid #e8edf3;
 
-  li:nth-child(2n) {
+  li:nth-of-type(2n) {
     border-right: 3px solid #e8edf3;
     border-left: 3px solid #e8edf3;
   }

@@ -3,7 +3,7 @@ import { CardFriend, Status, Avatar, Name } from './FriendList.styled';
 
 export const FriendListItem = ({ name, avatar, isOnline }) => {
   return (
-    <CardFriend className="item">
+    <CardFriend>
       <Status isOnline={isOnline}></Status>
       <Avatar src={avatar} alt="User avatar" />
       <Name>{name}</Name>

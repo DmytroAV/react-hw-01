@@ -1,7 +1,7 @@
 {
   "name": "react-hw-01",
   "version": "0.1.0",
-  "homepage": "https://DmytroAV.github.io",
+  "homepage": "https://DmytroAV.github.io/react-hw-01",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",
@@ -9,7 +9,6 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "gh-pages": "^5.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -18,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "2.8.8"

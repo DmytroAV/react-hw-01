@@ -30,7 +30,8 @@ export const Status = styled.span`
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: ${({ isOnline }) => {
+  background-color: ${({ isOnline }) => (isOnline ? 'green' : 'red')};
+  /* background-color: ${({ isOnline }) => {
     switch (isOnline) {
       case true:
         return 'green';
@@ -39,7 +40,7 @@ export const Status = styled.span`
       default:
         return `#fff`;
     }
-  }};
+  }}; */
 `;
 
 export const Avatar = styled.img`

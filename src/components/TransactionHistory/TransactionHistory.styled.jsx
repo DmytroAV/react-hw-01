@@ -18,7 +18,7 @@ export const Thead = styled.thead`
   display: grid;
   width: 100%;
 
-  Tr:nth-child(1) {
+  Tr:nth-of-type(1) {
     background-color: #00bdd6;
   }
 `;
@@ -41,7 +41,7 @@ export const Tr = styled.tr`
   height: 50px;
   background-color: #fafafa;
 
-  :nth-child(2n) {
+  :nth-of-type(2n) {
     background-color: #ecf2f4;
   }
 `;
@@ -57,7 +57,7 @@ export const Th = styled.th`
   text-transform: uppercase;
   color: #fafafa;
 
-  :nth-child(2n) {
+  :nth-of-type(2n) {
     border-right: 1px solid #7ee7f7;
     border-left: 1px solid #7ee7f7;
   }
@@ -74,7 +74,7 @@ export const Td = styled.td`
   text-transform: capitalize;
   color: #7e8085;
 
-  :nth-child(2n) {
+  :nth-of-type(2n) {
     border-right: 2px solid #e7e7e7;
     border-left: 2px solid #e7e7e7;
   }
